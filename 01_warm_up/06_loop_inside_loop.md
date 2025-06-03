@@ -1,6 +1,6 @@
 # 06. Loop Inside Loop
 
-## ✅ 01. Full Grid Loop
+### 01. Full Grid Loop
 
 ```javascript
 for (let i = 0; i < 3; i++) {
@@ -12,7 +12,7 @@ for (let i = 0; i < 3; i++) {
 
 - Prints every `(i, j)` pair in a 3×3 grid.
 
-## ✅ 02. Lower Triangle (excluding diagonal)
+### 02. Lower Triangle (excluding diagonal)
 
 ```javascript
 for (let i = 0; i < 3; i++) {
@@ -25,7 +25,7 @@ for (let i = 0; i < 3; i++) {
 - Skips the diagonal (`j < i`)
 - Prints only when `j` is **less** than `i`.
 
-## ✅ 03. Lower Triangle (including diagonal)
+### 03. Lower Triangle (including diagonal)
 
 ```javascript
 for (let i = 0; i < 5; i++) {
@@ -47,7 +47,7 @@ for (let i = 0; i < 5; i++) {
   * * * * *
   ```
 
-## ✅ 04. Reverse Loop from `i`
+### 04. Reverse Loop from `i`
 
 ```javascript
 for (let i = 0; i < 3; i++) {
@@ -66,7 +66,7 @@ for (let i = 0; i < 3; i++) {
   *
 ```
 
-## ✅ 05. Inverted Triangle (top-down)
+### 05. Inverted Triangle (top-down)
 
 ```javascript
 for (let i = 5; i > 0; i--) {
@@ -87,7 +87,7 @@ for (let i = 5; i > 0; i--) {
   *
   ```
 
-## 🔁 Bonus Tip: Pattern Use Cases
+## Bonus Tip: Pattern Use Cases
 
 - Grid navigation, matrix traversal → Pattern 01
 - Building lower/upper triangles in 2D arrays → Pattern 02, 03

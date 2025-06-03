@@ -1,6 +1,6 @@
 # 01. Programming 101
 
-## ✅ Strings in JavaScript
+## Strings in JavaScript
 
 Strings are enclosed in single or double quotes.
 
@@ -9,7 +9,7 @@ console.log("Hello World");
 console.log("Hello Again");
 ```
 
-## ✅ Numbers in JavaScript
+## Numbers in JavaScript
 
 Numbers can be integers or floats.
 
@@ -18,7 +18,7 @@ console.log(1); // Integer
 console.log(1.1); // Float
 ```
 
-## ✅ Booleans in JavaScript
+## Booleans in JavaScript
 
 Booleans represent `true` or `false` values.
 
@@ -27,7 +27,7 @@ console.log(true);
 console.log(false);
 ```
 
-## ✅ Mathematical Operators
+## Mathematical Operators
 
 JavaScript supports the following mathematical operators: `+`, `-`, `*`, `/`, `%`
 
@@ -42,7 +42,7 @@ console.log(a / b); // 0.5
 console.log(a % b); // 10
 ```
 
-## 📘 `let` and `const` in JavaScript
+## `let` and `const` in JavaScript
 
 - `let` allows reassignment
 - `const` does not allow reassignment
@@ -57,7 +57,7 @@ console.log(x); // 30
 console.log(y); // 20
 ```
 
-## 📘 String Concatenation
+## String Concatenation
 
 Strings can be combined using the `+` operator.
 
@@ -69,7 +69,7 @@ const fullName = firstName + " " + lastName;
 console.log(fullName); // "John Doe"
 ```
 
-## 📘 Type Coercion with `+`
+## Type Coercion with `+`
 
 JavaScript coerces types depending on operands.
 
@@ -123,7 +123,7 @@ console.log(undefined + null); // NaN
 console.log(undefined + undefined); // NaN
 ```
 
-## ✅ Arrays in JavaScript
+## Arrays in JavaScript
 
 Arrays are ordered lists of values.
 
@@ -141,7 +141,7 @@ const arrInArr = [1, 2, 3, [4, [5, 6], 7]];
 console.log(arrInArr[3][1][1]); // 6
 ```
 
-## ✅ Objects in JavaScript
+## Objects in JavaScript
 
 Objects are collections of key-value pairs.
 

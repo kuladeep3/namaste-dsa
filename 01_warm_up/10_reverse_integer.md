@@ -1,6 +1,6 @@
 # 10. Reverse Integer
 
-### ▶️ Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
+## Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
 
 1. Example 1:
 
@@ -16,7 +16,7 @@
    - Input: x = 120
    - Output: 21
 
-## ✅ Logic Breakdown:
+### Logic Breakdown:
 
 ```javascript
 function reverseInteger(x) {
@@ -43,12 +43,12 @@ function reverseInteger(x) {
 }
 ```
 
-## 🧪 Test Cases:
+### Test Cases:
 
 ```javascript
-console.log(reverseInteger(123)); // 321 ✅
-console.log(reverseInteger(-123)); // -321 ✅
-console.log(reverseInteger(120)); // 21 ✅
-console.log(reverseInteger(1534236469)); // 0 ✅ (overflow)
-console.log(reverseInteger(-2147483648)); // 0 ✅ (overflow after reverse)
+console.log(reverseInteger(123)); // 321
+console.log(reverseInteger(-123)); // -321
+console.log(reverseInteger(120)); // 21
+console.log(reverseInteger(1534236469)); // 0 (overflow)
+console.log(reverseInteger(-2147483648)); // 0 (overflow after reverse)
 ```

@@ -1,6 +1,6 @@
 # 08. Count Digit
 
-### ▶️ Given an integer x, return the number of digits in x.
+## Given an integer x, return the number of digits in x.
 
 1. Example 1:
 
@@ -16,7 +16,7 @@
    - Input: x = 0
    - Output: 1
 
-## ✅ Logic Breakdown:
+### Logic Breakdown:
 
 ```javascript
 function countDigit(n) {
@@ -38,11 +38,11 @@ function countDigit(n) {
 }
 ```
 
-## 🧪 Test Cases:
+### Test Cases:
 
 ```javascript
-countDigit(123); // 3 ✅
-countDigit(1234); // 4 ✅
-countDigit(0); // 1 ✅
-countDigit(-1232); // 4 ✅
+console.log(countDigit(123)); // 3
+console.log(countDigit(1234)); // 4
+console.log(countDigit(0)); // 1
+console.log(countDigit(-1232)); // 4
 ```

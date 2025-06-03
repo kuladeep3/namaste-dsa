@@ -1,15 +1,8 @@
 # 07. Star Patterns
 
-## ✅ 01. Square of stars
+## 01. Square of stars
 
-```text
-* * * *
-* * * *
-* * * *
-* * * *
-```
-
-### 📘 Logic Breakdown:
+### Logic Breakdown:
 
 ```javascript
 const n = 4;
@@ -25,16 +18,18 @@ for (let i = 0; i < n; i++) {
 }
 ```
 
-## ✅ 02. Right-angled triangle (increasing)
+### Output:
 
-```text
-*
-* *
-* * *
+```bash
+* * * *
+* * * *
+* * * *
 * * * *
 ```
 
-### 📘 Logic Breakdown:
+## 02. Right-angled triangle (increasing)
+
+### Logic Breakdown:
 
 ```javascript
 const n = 4;
@@ -50,16 +45,18 @@ for (let i = 0; i < n; i++) {
 }
 ```
 
-## ✅ 03. Right-angled number triangle
+### Output:
 
-```text
-1
-1 2
-1 2 3
-1 2 3 4
+```bash
+*
+* *
+* * *
+* * * *
 ```
 
-### 📘 Logic Breakdown:
+## 03. Right-angled number triangle
+
+### Logic Breakdown:
 
 ```javascript
 const n = 4;
@@ -75,16 +72,18 @@ for (let i = 0; i < n; i++) {
 }
 ```
 
-## ✅ 04. Triangle with repeating row numbers
+### Output:
 
-```text
+```bash
 1
-2 2
-3 3 3
-4 4 4 4
+1 2
+1 2 3
+1 2 3 4
 ```
 
-### 📘 Logic Breakdown:
+## 04. Triangle with repeating row numbers
+
+### Logic Breakdown:
 
 ```javascript
 const n = 4;
@@ -99,16 +98,18 @@ for (let i = 0; i < n; i++) {
 }
 ```
 
-## ✅ 05. Inverted triangle with decreasing columns
+### Output:
 
-```text
-1 2 3 4
-1 2 3
-1 2
+```bash
 1
+2 2
+3 3 3
+4 4 4 4
 ```
 
-### 📘 Logic Breakdown:
+## 05. Inverted triangle with decreasing columns
+
+### Logic Breakdown:
 
 ```javascript
 const n = 4;
@@ -124,16 +125,18 @@ for (let i = 0; i < n; i++) {
 }
 ```
 
-## ✅ 06. Inverted star triangle
+### Output:
 
-```text
-* * * *
-* * *
-* *
-*
+```bash
+1 2 3 4
+1 2 3
+1 2
+1
 ```
 
-### 📘 Logic Breakdown:
+## 06. Inverted star triangle
+
+### Logic Breakdown:
 
 ```javascript
 const n = 4;
@@ -149,16 +152,18 @@ for (let i = 0; i < n; i++) {
 }
 ```
 
-## ✅ 07. Right-aligned star triangle
+### Output:
 
-```text
-      *
-    * *
-  * * *
+```bash
 * * * *
+* * *
+* *
+*
 ```
 
-### 📘 Logic Breakdown:
+## 07. Right-aligned star triangle
+
+### Logic Breakdown:
 
 ```javascript
 const n = 4;
@@ -175,16 +180,18 @@ for (let i = 0; i < n; i++) {
 }
 ```
 
-## ✅ 08. Binary pattern with alternating toggle
+### Output:
 
-```text
-1
-1 0
-1 0 1
-1 0 1 0
+```bash
+      *
+    * *
+  * * *
+* * * *
 ```
 
-### 📘 Logic Breakdown:
+## 08. Binary pattern with alternating toggle
+
+### Logic Breakdown:
 
 ```javascript
 const n = 4;
@@ -203,16 +210,18 @@ for (let i = 0; i < n; i++) {
 }
 ```
 
-## ✅ 09. Binary pattern with continuous toggle across rows
+### Output:
 
-```text
+```bash
 1
-0 1
-0 1 0
+1 0
+1 0 1
 1 0 1 0
 ```
 
-### 📘 Logic Breakdown:
+## 09. Binary pattern with continuous toggle across rows
+
+### Logic Breakdown:
 
 ```javascript
 const n = 4;
@@ -232,16 +241,18 @@ for (let i = 0; i < n; i++) {
 }
 ```
 
-## ✅ 10. Centered pyramid
+### Output:
 
-```text
-      *
-    * * *
-  * * * * *
-* * * * * * *
+```bash
+1
+0 1
+0 1 0
+1 0 1 0
 ```
 
-### 📘 Logic Breakdown:
+## 10. Centered pyramid
+
+### Logic Breakdown:
 
 ```javascript
 const n = 4;
@@ -259,4 +270,13 @@ for (let i = 0; i < n; i++) {
 
   console.log(row);
 }
+```
+
+### Output:
+
+```bash
+      *
+    * * *
+  * * * * *
+* * * * * * *
 ```
