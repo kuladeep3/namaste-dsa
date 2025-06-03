@@ -1,8 +1,8 @@
-# DSA
+# Namaste DSA 🚀
 
-## Table of Contents
+### Table of Contents
 
-- [01. Warm Up](01_warm_up)
+- **01. Warm Up**
   - [01. Programming 101](01_warm_up/01_programming_101.md)
   - [02. Function & If-Else](01_warm_up/02_function_&_if_else.md)
   - [03. Loops](01_warm_up/03_loops.md)
