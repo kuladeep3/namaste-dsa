@@ -1,6 +1,6 @@
 # 09. Palindrome
 
-### ▶️ Given an integer x, return true if x is a palindrome, and false otherwise.
+## Given an integer x, return true if x is a palindrome, and false otherwise.
 
 1. Example 1:
 
@@ -19,7 +19,7 @@
    - Output: false
    - Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
-## ✅ Logic Breakdown:
+### Logic Breakdown:
 
 ```javascript
 function isPalindrome(x) {
@@ -49,11 +49,11 @@ function isPalindrome(x) {
 }
 ```
 
-## 🧪 Test Cases:
+### Test Cases:
 
 ```javascript
-console.log(isPalindrome(121)); // true ✅
-console.log(isPalindrome(-210)); // false ✅
-console.log(isPalindrome(10)); // false ✅
-console.log(isPalindrome(8)); // true ✅
+console.log(isPalindrome(121)); // true
+console.log(isPalindrome(-210)); // false
+console.log(isPalindrome(10)); // false
+console.log(isPalindrome(8)); // true
 ```

@@ -2,7 +2,7 @@
 
 Loops are used to execute a block of code repeatedly.
 
-## ✅ For Loop
+## For Loop
 
 ```javascript
 // Without loop (repetitive)
@@ -15,7 +15,7 @@ for (let i = 0; i < 2; i++) {
 }
 ```
 
-### 📘 Syntax
+### Syntax
 
 ```javascript
 for (initialization; condition; increment) {
@@ -23,7 +23,7 @@ for (initialization; condition; increment) {
 }
 ```
 
-### ▶️ Example: Print 0 to 4
+### Example: Print 0 to 4
 
 ```javascript
 for (let i = 0; i < 5; i++) {
@@ -38,7 +38,7 @@ for (let i = 0; i < 5; i++) {
 // 4
 ```
 
-### ▶️ Example: Start from 3 to 4
+### Example: Start from 3 to 4
 
 ```javascript
 for (let i = 3; i < 5; i++) {
@@ -50,7 +50,7 @@ for (let i = 3; i < 5; i++) {
 // 4
 ```
 
-### ▶️ Example: Increment by 2
+### Example: Increment by 2
 
 ```javascript
 for (let i = 2; i < 9; i += 2) {
@@ -64,7 +64,7 @@ for (let i = 2; i < 9; i += 2) {
 // 8
 ```
 
-### ▶️ Example: Countdown loop
+### Example: Countdown loop
 
 ```javascript
 for (let i = 5; i > 0; i--) {
@@ -79,9 +79,9 @@ for (let i = 5; i > 0; i--) {
 // 1
 ```
 
-## ⚠️ Invalid / Infinite Loops
+## Invalid / Infinite Loops
 
-### ▶️ Example: Invalid Loop
+### Example: Invalid Loop
 
 ```javascript
 // Will not run (5 < 4 is false)
@@ -90,7 +90,7 @@ for (let i = 5; i < 4; i++) {
 }
 ```
 
-### ▶️ Example: Infinite Loop
+### Example: Infinite Loop
 
 ```javascript
 // Infinite loop (keep on printing 1 forever)
@@ -101,7 +101,7 @@ for (let i = 1; i > 0; i++) {
 // Output: 1 1 1 1 1 ...
 ```
 
-## 🔁 Function Inside Loop
+## Function Inside Loop
 
 ```javascript
 function greet(i) {
@@ -120,7 +120,7 @@ for (let i = 0; i < 5; i++) {
 // Hello 4
 ```
 
-## 📚 Looping Through Arrays
+## Looping Through Arrays
 
 ```javascript
 let arr = [3, 5, 2, 6, 78, 2];
@@ -153,9 +153,9 @@ for (let i = 0; i < arr.length; i++) {
 // 2
 ```
 
-## 🔄 While Loop
+## While Loop
 
-### 📘 Syntax
+### Syntax
 
 ```javascript
 initialization;
@@ -165,7 +165,7 @@ while (condition) {
 }
 ```
 
-### ▶️ Example: Print numbers from 0 to 4
+### Example: Print numbers from 0 to 4
 
 ```javascript
 let i = 0;

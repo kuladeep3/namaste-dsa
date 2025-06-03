@@ -1,10 +1,10 @@
 # 02. Function & If Else
 
-## ✅ Functions
+## Functions
 
 Functions are reusable blocks of code. They allow you to encapsulate logic that can be executed whenever needed.
 
-### 📘 Function Declaration
+### Function Declaration
 
 ```javascript
 function printGreetings(name) {
@@ -15,7 +15,7 @@ printGreetings("John"); // Hello John
 printGreetings("Sam"); // Hello Sam
 ```
 
-### ▶️ Example: Function to Print Sum of Two Numbers
+### Example: Function to Print Sum of Two Numbers
 
 ```javascript
 function sum(a, b) {
@@ -31,7 +31,7 @@ sum(a, b); // 30
 sum(a, c); // 40
 ```
 
-### ▶️ Example: Function to Return Square of a Number
+### Example: Function to Return Square of a Number
 
 ```javascript
 function square(num) {
@@ -42,11 +42,11 @@ const value = square(5);
 console.log(value); // 25
 ```
 
-## ✅ If-Else Statements
+## If-Else Statements
 
 If-else statements are used to make decisions in JavaScript.
 
-### ▶️ Example: Check If a Number is Even or Odd
+### Example: Check If a Number is Even or Odd
 
 ```javascript
 function checkEvenOdd(num) {
@@ -61,7 +61,7 @@ checkEvenOdd(4); // Even Number
 checkEvenOdd(5); // Odd Number
 ```
 
-### ▶️ Example: Check Voting Eligibility
+### Example: Check Voting Eligibility
 
 ```javascript
 function isEligibleToVote(age) {

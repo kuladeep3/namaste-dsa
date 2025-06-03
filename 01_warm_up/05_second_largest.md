@@ -1,6 +1,6 @@
 # 05. Second Largest
 
-### ▶️ Given an array of numbers, return the second largest number in the array.
+## Given an array of numbers, return the second largest number in the array.
 
 1. Example 1:
 
@@ -19,7 +19,7 @@
    - Output: -3
    - Explanation: The second largest number is -3, which is the largest negative number in the array.
 
-## ✅ Logic Breakdown:
+### Logic Breakdown:
 
 ```javascript
 function secondLargest(arr) {
@@ -48,7 +48,7 @@ function secondLargest(arr) {
 }
 ```
 
-## 🧪 Test Cases:
+### Test Cases:
 
 ```javascript
 console.log(secondLargest([4, 9, 0, 2, 8, 7, 1])); // 8

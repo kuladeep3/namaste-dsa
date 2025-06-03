@@ -7,7 +7,9 @@ const arr3 = [5, 0, 10, 8, 17, 1, 5, 34];
 const arr4 = [-5, -3, -5, -2, -434, -22];
 ```
 
-## 🔍 1. Search for an Element in Array
+## 1. Search for an Element in Array
+
+### Logic Breakdown:
 
 ```javascript
 function searchElement(arr, ele) {
@@ -24,7 +26,7 @@ function searchElement(arr, ele) {
 }
 ```
 
-## 🧪 Test Cases:
+### Test Cases:
 
 ```javascript
 console.log(searchElement(arr1, 10)); // 3
@@ -33,7 +35,9 @@ console.log(searchElement(arr3, 10)); // 2
 console.log(searchElement(arr4, 10)); // -1
 ```
 
-## ➖ 2. Count Negative Numbers in Array
+## 2. Count Negative Numbers in Array
+
+### Logic Breakdown:
 
 ```javascript
 function countNegativeElements(arr) {
@@ -52,7 +56,7 @@ function countNegativeElements(arr) {
 }
 ```
 
-## 🧪 Test Cases:
+### Test Cases:
 
 ```javascript
 console.log(countNegativeElements(arr1)); // 0
@@ -61,7 +65,9 @@ console.log(countNegativeElements(arr3)); // 0
 console.log(countNegativeElements(arr4)); // 6
 ```
 
-## 🔼 3. Find the Largest Number in Array
+## 3. Find the Largest Number in Array
+
+### Logic Breakdown:
 
 ```javascript
 function findLargest(arr) {
@@ -81,7 +87,7 @@ function findLargest(arr) {
 }
 ```
 
-## 🧪 Test Cases:
+### Test Cases:
 
 ```javascript
 console.log(findLargest(arr1)); // 30
@@ -90,7 +96,9 @@ console.log(findLargest(arr3)); // 34
 console.log(findLargest(arr4)); // -2
 ```
 
-## 🔽 4. Find the Smallest Number in Array
+## 4. Find the Smallest Number in Array
+
+### Logic Breakdown:
 
 ```javascript
 function findSmallest(arr) {
@@ -110,7 +118,7 @@ function findSmallest(arr) {
 }
 ```
 
-## 🧪 Test Cases:
+### Test Cases:
 
 ```javascript
 console.log(findSmallest(arr1)); // 0
