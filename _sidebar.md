@@ -10,3 +10,8 @@
   - [08. Count Digits](01_warm_up/08_count_digit.md)
   - [09. Palindrome](01_warm_up/09_palindrome.md)
   - [10. Reverse Integer](01_warm_up/10_reverse_integer.md)
+
+- [Time & Space Complexity]("02_time_&_space_complexity/")
+
+  - [01. Time Complexity](02_time_&_space_complexity/01_time_complexity.md)
+  <!-- - [02. Space Complexity](02_time_&_space_complexity/02_space_complexity.md) -->
