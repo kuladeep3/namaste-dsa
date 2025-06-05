@@ -14,4 +14,4 @@
 - [Time & Space Complexity]("02_time_&_space_complexity/")
 
   - [01. Time Complexity](02_time_&_space_complexity/01_time_complexity.md)
-  <!-- - [02. Space Complexity](02_time_&_space_complexity/02_space_complexity.md) -->
+  - [02. Space Complexity](02_time_&_space_complexity/02_space_complexity.md)
