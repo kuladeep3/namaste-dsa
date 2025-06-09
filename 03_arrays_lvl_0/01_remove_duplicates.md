@@ -2,7 +2,7 @@
 
 ## Problem Statement:
 
-### Given an integer array `nums` sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in `nums`.
+### Given an integer array `nums` sorted in non-decreasing order, remove the duplicates **_in-place_** such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in `nums`.
 
 ### Consider the number of unique elements of `nums` to be `k`, to get accepted, you need to do the following things:
 
@@ -24,30 +24,48 @@ Example 2:
 - Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
   It does not matter what you leave beyond the returned k (hence they are underscores).
 
-## Approach: Two Pointers
+## Approach:
 
-- Initialize a pointer to keep track of the number of unique elements
-- Iterate over the array and update the pointer if the current element is greater than the element at the pointer and increment the pointer by 1
-- Return the number of unique elements
-- Time Complexity: `O(n)`
-- Space Complexity: `O(1)`
+1. **Initialize Pointer:**
+
+   - Set a pointer `x = 0` to keep track of the position of the last unique element.
+
+2. **Loop through the array from index 1:**
+
+   - For each element `nums[i]`, compare it with the last unique element `nums[x]`.
+   - If `nums[i]` is **different** (since array is sorted, different means greater), it's a new unique value.
+
+3. **Update array in-place:**
+
+   - Increment `x`.
+   - Assign `nums[i]` to `nums[x]`, effectively overwriting duplicates and shifting unique values forward.
+
+4. **Return count of unique elements:**
+
+   - Since index `x` holds the last unique element, the count of unique elements is `x + 1`.
+
+## Complexity:
+
+- **Time Complexity:** `O(n)` One pass through the array.
+- **Space Complexity:** `O(1)` No extra space used.
 
 ## Logic Breakdown:
 
 ```javascript
 function removeDuplicates(nums) {
-  // Initialize a pointer to keep track of the number of unique elements
+  // Initialize a pointer to track the position of the last unique element
   let x = 0;
 
-  for (let i = 0; i < nums.length; i++) {
-    // If the current element is greater than the element at the pointer, increment the pointer and update the element at the pointer
+  // Iterate through the array starting from index 1
+  for (let i = 1; i < nums.length; i++) {
+    // If the current element is different from the last unique element
     if (nums[i] > nums[x]) {
-      x += 1;
-      nums[x] = nums[i];
+      x += 1; // Move the pointer forward
+      nums[x] = nums[i]; // Overwrite the duplicate with the new unique value
     }
   }
 
-  // `x` now contains the number of unique elements and we initialize it to 0 to keep track of the number of unique elements in the array so now we need to increment `x` by 1 to get the number of unique elements
+  // Return the count of unique elements (index + 1)
   return x + 1;
 }
 ```
