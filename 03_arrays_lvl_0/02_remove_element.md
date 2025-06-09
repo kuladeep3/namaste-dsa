@@ -2,7 +2,7 @@
 
 ## Problem Statement:
 
-### Given an integer array `nums` and an integer `val`, remove all occurrences of `val` in `nums` in-place. The order of the elements may be changed. Then return the number of elements in `nums` which are not equal to `val`.
+### Given an integer array `nums` and an integer `val`, remove all occurrences of `val` in `nums` **_in-place_**. The order of the elements may be changed. Then return the number of elements in `nums` which are not equal to `val`.
 
 ### Consider the number of elements in `nums` which are not equal to `val` be `k`, to get accepted, you need to do the following things:
 
@@ -27,28 +27,51 @@ Example 2:
 
 ## Approach: Two Pointers
 
-- Initialize a pointer to keep track of the non matching element's index
-- Iterate over the array and update the pointer if the current element is not equal to the value and increment the pointer by 1
-- Return the number of non matching elements
-- Time Complexity: `O(n)`
-- Space Complexity: `O(1)`
+1. **Initialize Pointer:**
+
+   - Use `x = 0` as a pointer to track the position for placing the next valid (non-`val`) element.
+
+2. **Loop Through Array:**
+
+   - Traverse `nums` from start to end.
+   - For each element `nums[i]`:
+
+     - If it's **not equal to `val`**, it is a valid element.
+     - Copy it to index `x` (`nums[x] = nums[i]`), and increment `x`.
+
+3. **Skip Matches:**
+
+   - If `nums[i] === val`, skip it (i.e., do not update `x` or assign the value).
+
+4. **Return Result:**
+
+   - Return `x`, which is the count of valid elements (non-`val`) after in-place modification.
+
+## Complexity:
+
+- **Time Complexity:** `O(n)` One pass through the array.
+
+- **Space Complexity:** `O(1)` No extra space used; modifies array in-place.
 
 ## Logic Breakdown:
 
 ```javascript
 function removeElement(nums, val) {
-  // Initialize a pointer to keep track of the non matching element's index
+  // Initialize a pointer to track the position for placing non-matching elements
   let x = 0;
 
+  // Iterate through each element of the array
   for (let i = 0; i < nums.length; i++) {
-    // If the current element is not equal to the value, update the element at the pointer and increment the pointer
+    // If the current element is not equal to the target value
     if (nums[i] !== val) {
+      // Place the non-matching element at the current pointer position
       nums[x] = nums[i];
+      // Move the pointer forward
       x += 1;
     }
   }
 
-  // `x` now contains the number of non matching elements
+  // Return the count of elements that are not equal to the target value
   return x;
 }
 ```

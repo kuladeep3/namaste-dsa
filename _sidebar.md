@@ -20,3 +20,4 @@
 
   - [01. Remove Duplicates](03_arrays_lvl_0/01_remove_duplicates.md)
   - [02. Remove Element](03_arrays_lvl_0/02_remove_element.md)
+  - [03. Reverse String](03_arrays_lvl_0/03_reverse_string.md)
