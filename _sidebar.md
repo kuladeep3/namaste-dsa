@@ -15,3 +15,7 @@
 
   - [01. Time Complexity](02_time_&_space_complexity/01_time_complexity.md)
   - [02. Space Complexity](02_time_&_space_complexity/02_space_complexity.md)
+
+- [Arrays]("03_arrays_lvl_0/")
+
+  - [01. Remove Duplicates](03_arrays_lvl_0/01_remove_duplicates.md)
