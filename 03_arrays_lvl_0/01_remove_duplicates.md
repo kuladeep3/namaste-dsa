@@ -1,12 +1,14 @@
-# 10. Remove Duplicates from Sorted Array
+# [01. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 
-## Given an integer array `nums` sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in `nums`.
+## Problem Statement:
 
-### Consider the number of unique elements of nums to be k, to get accepted, you need to do the following things:
+### Given an integer array `nums` sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in `nums`.
 
-- ### Change the array nums such that the first k elements of nums contain the unique elements in the order they were present in nums initially. The remaining elements of nums are not important as well as the size of nums.
+### Consider the number of unique elements of `nums` to be `k`, to get accepted, you need to do the following things:
 
-- ### Return k.
+- ### Change the array `nums` such that the first `k` elements of `nums` contain the unique elements in the order they were present in `nums` initially. The remaining elements of `nums` are not important as well as the size of `nums`.
+
+- ### Return `k`.
 
 Example 1:
 
@@ -22,18 +24,26 @@ Example 2:
 - Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
   It does not matter what you leave beyond the returned k (hence they are underscores).
 
-### Logic Breakdown:
+## Approach: Two Pointers
+
+- Initialize a pointer to keep track of the number of unique elements
+- Iterate over the array and update the pointer if the current element is greater than the element at the pointer and increment the pointer by 1
+- Return the number of unique elements
+- Time Complexity: `O(n)`
+- Space Complexity: `O(1)`
+
+## Logic Breakdown:
 
 ```javascript
-function removeDuplicates(arr) {
+function removeDuplicates(nums) {
   // Initialize a pointer to keep track of the number of unique elements
   let x = 0;
 
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < nums.length; i++) {
     // If the current element is greater than the element at the pointer, increment the pointer and update the element at the pointer
-    if (arr[i] > arr[x]) {
+    if (nums[i] > nums[x]) {
       x += 1;
-      arr[x] = arr[i];
+      nums[x] = nums[i];
     }
   }
 
@@ -42,14 +52,14 @@ function removeDuplicates(arr) {
 }
 ```
 
-### Test Cases:
+## Test Cases:
 
 ```javascript
 console.log(removeDuplicates([1, 1, 2])); // Output: 2
 console.log(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4])); // Output: 5
 ```
 
-### Note:
+## Note:
 
 1. **Sorted increasing order array**:
    - `arr = [1, 2, 3, 4, 5]`

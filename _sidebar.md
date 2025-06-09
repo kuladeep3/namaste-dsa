@@ -19,3 +19,4 @@
 - [Arrays]("03_arrays_lvl_0/")
 
   - [01. Remove Duplicates](03_arrays_lvl_0/01_remove_duplicates.md)
+  - [02. Remove Element](03_arrays_lvl_0/02_remove_element.md)
