@@ -16,9 +16,10 @@
   - [01. Time Complexity](02_time_&_space_complexity/01_time_complexity.md)
   - [02. Space Complexity](02_time_&_space_complexity/02_space_complexity.md)
 
-- [Arrays]("03_arrays_lvl_0/")
+- [Arrays (Level 0)]("03_arrays_lvl_0/")
 
   - [01. Remove Duplicates](03_arrays_lvl_0/01_remove_duplicates.md)
   - [02. Remove Element](03_arrays_lvl_0/02_remove_element.md)
   - [03. Reverse String](03_arrays_lvl_0/03_reverse_string.md)
   - [04. Best Time to Buy and Sell Stock](03_arrays_lvl_0/04_best_time_to_buy_and_sell_stock.md)
+  - [05. Merge Sorted Array](03_arrays_lvl_0/05_merge_sorted_array.md)
