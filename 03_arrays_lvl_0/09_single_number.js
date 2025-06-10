@@ -21,6 +21,17 @@ function singleNumber(nums) {
   }
 }
 
+// Approach 2: Bitwise XOR
+function singleNumber(nums) {
+  let xor = 0;
+
+  for (let i = 0; i < nums.length; i++) {
+    xor = xor ^ nums[i];
+  }
+
+  return xor;
+}
+
 // Test Cases:
 console.log(singleNumber([2, 2, 1])); // Output: 1
 console.log(singleNumber([4, 1, 2, 1, 2])); // Output: 4
