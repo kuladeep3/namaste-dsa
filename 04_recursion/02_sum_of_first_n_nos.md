@@ -4,12 +4,12 @@
 
 ### Write a recursive function `sum(n)` that calculates the sum of the first `n` natural numbers (i.e., `1 + 2 + 3 + ... + n`).
 
-Examples 1:
+Example 1:
 
 - Input: n = 5
 - Output: 15
 
-Examples 2:
+Example 2:
 
 - Input: n = 2
 - Output: 3
