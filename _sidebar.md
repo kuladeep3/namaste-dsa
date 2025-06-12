@@ -32,3 +32,7 @@
   - [04. Factorial](04_recursion/04_factorial.md)
   - [05. Power of Two](04_recursion/05_power_of_two.md)
   - [06. Recursion Masterclass](04_recursion/06_recursion_masterclass.md)
+
+- [Searching & Sorting (Level 0)]("05_searching_&_sorting_lvl_0/")
+
+  - [01. Linear Search](05_searching_&_sorting_lvl_0/01_linear_search.md)
