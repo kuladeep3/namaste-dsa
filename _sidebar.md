@@ -31,3 +31,4 @@
   - [03. Sum of all elements in array](04_recursion/03_sum_of_all_elements_in_array.md)
   - [04. Factorial](04_recursion/04_factorial.md)
   - [05. Power of Two](04_recursion/05_power_of_two.md)
+  - [06. Recursion Masterclass](04_recursion/06_recursion_masterclass.md)
