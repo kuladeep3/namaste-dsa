@@ -1,9 +1,9 @@
-/**fibonacci series
+/** ============================
  * Write a function fibonacci(n) that returns the F(n).
  * F(0) = 0,
  * F(1) = 1
  * F(n) = F(n - 1) + F(n - 2), for n > 1.
- */
+ * ============================ */
 
 // Iterative Approach
 function fibonacciWithLoop(n) {
