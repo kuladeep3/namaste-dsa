@@ -1,4 +1,4 @@
-# Factorial of a Number Using Recursion
+# 04. Factorial of a Number Using Recursion
 
 ## Problem Statement:
 

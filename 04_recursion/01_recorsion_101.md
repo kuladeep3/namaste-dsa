@@ -1,4 +1,4 @@
-# Recursion 101
+# 01. Recursion 101
 
 > A recursive function is a function that calls itself to solve smaller subproblems of the same task.
 

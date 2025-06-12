@@ -1,4 +1,4 @@
-# Sum of all the elements in an array
+# 03. Sum of all the elements in an array
 
 ## Problem Statement:
 
