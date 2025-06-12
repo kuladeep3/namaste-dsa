@@ -1,4 +1,4 @@
-# Sum of First **n** Natural Numbers Using `Recursion`
+# 02. Sum of First **n** Natural Numbers Using `Recursion`
 
 ## Problem Statement:
 
