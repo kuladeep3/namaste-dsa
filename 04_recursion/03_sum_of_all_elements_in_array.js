@@ -8,6 +8,7 @@ function sum(arr, n) {
   return arr[n - 1] + sum(arr, n - 1);
 }
 
+// Test cases
 console.log(sum([1, 2, 3], 3)); // Output: 6
 console.log(sum([1, 3, 4, 23, 5, 2], 6)); // Output: 38
 
@@ -23,5 +24,6 @@ function oddSum(arr, n) {
   return (isOdd ? arr[n - 1] : 0) + oddSum(arr, n - 1);
 }
 
+// Test cases
 console.log(oddSum([1, 2, 3], 3)); // Output: 4
 console.log(oddSum([2, 3, 4, 23, 5, 2], 6)); // Output: 31
