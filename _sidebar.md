@@ -27,5 +27,6 @@
 - [Recursion]("04_recursion/")
 
   - [01. Recorsion 101](04_recursion/01_recorsion_101.md)
-  - [02. Sum of First n Nos](04_recursion/02_sum_of_first_n_nos.md)
+  - [02. Sum of first `n` numbers](04_recursion/02_sum_of_first_n_nos.md)
   - [03. Sum of all elements in array](04_recursion/03_sum_of_all_elements_in_array.md)
+  - [04. Factorial](04_recursion/04_factorial.md)

@@ -8,4 +8,6 @@ function sum(n) {
   return n + sum(n - 1);
 }
 
+// Test cases
 console.log(sum(5)); // Output: 15
+console.log(sum(10)); // Output: 55
