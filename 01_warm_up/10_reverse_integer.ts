@@ -2,18 +2,18 @@
  *  Write a function that takes an integer as an argument and returns the reverse of that integer.
  * ============================ */
 
-function reverseInteger(x) {
-  const isNegative = x < 0;
+function reverseInteger(x: number): number {
+  const isNegative: boolean = x < 0;
   x = Math.abs(x);
 
   // 2^31 is the largest integer that can be stored in a 32-bit signed integer
-  let limit = Math.pow(2, 31);
+  let limit: number = Math.pow(2, 31);
 
-  let reverse = 0;
+  let reverse: number = 0;
 
   // Reverse the digits of the number
   while (x > 0) {
-    let rem = x % 10;
+    let rem: number = x % 10;
     reverse = 10 * reverse + rem;
     x = Math.floor(x / 10);
   }

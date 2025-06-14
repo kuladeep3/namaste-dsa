@@ -8,7 +8,7 @@ console.log("Hello World");
 console.log("Hello World");
 
 // With loop (efficient)
-for (let i = 0; i < 2; i++) {
+for (let i: number = 0; i < 2; i++) {
   console.log("Hello World");
 }
 
@@ -18,7 +18,7 @@ for (let i = 0; i < 2; i++) {
  * ============================ */
 
 // Print numbers from 0 to 4
-for (let i = 0; i < 5; i++) {
+for (let i: number = 0; i < 5; i++) {
   console.log(i);
 }
 
@@ -32,7 +32,7 @@ for (let i = 0; i < 5; i++) {
  */
 
 /** Example 2: Start from 3 to 4 */
-for (let i = 3; i < 5; i++) {
+for (let i: number = 3; i < 5; i++) {
   console.log(i);
 }
 
@@ -43,7 +43,7 @@ for (let i = 3; i < 5; i++) {
  */
 
 /** Example 3: Increment by 2 */
-for (let i = 2; i < 9; i += 2) {
+for (let i: number = 2; i < 9; i += 2) {
   console.log(i);
 }
 
@@ -56,7 +56,7 @@ for (let i = 2; i < 9; i += 2) {
  */
 
 /** Example 4: Countdown loop */
-for (let i = 5; i > 0; i--) {
+for (let i: number = 5; i > 0; i--) {
   console.log(i);
 }
 
@@ -74,7 +74,7 @@ for (let i = 5; i > 0; i--) {
  * ============================ */
 
 // This loop will NOT run because the condition is false at the start (5 < 4 is false)
-for (let i = 5; i < 4; i++) {
+for (let i: number = 5; i < 4; i++) {
   console.log(i);
 }
 
@@ -88,12 +88,12 @@ for (let i = 5; i < 4; i++) {
  * ============================ */
 
 // Define a reusable function
-function greet(i) {
+function greet(i: number): void {
   console.log("Hello " + i);
 }
 
 // Call greet function inside a loop
-for (let i = 0; i < 10; i++) {
+for (let i: number = 0; i < 10; i++) {
   greet(i); // prints "Hello 0" to "Hello 9"
 }
 
@@ -102,22 +102,22 @@ for (let i = 0; i < 10; i++) {
  * ============================ */
 
 // Declare an array
-let arr = [3, 5, 2, 6, 78, 2];
+let arr: number[] = [3, 5, 2, 6, 78, 2];
 
 // Get length of array
-let length = arr.length;
+let arrLength: number = arr.length;
 
 console.log("Second element:", arr[1]); // 5
-console.log("Array length:", length); // 6
+console.log("Array length:", arrLength); // 6
 
 // Loop through entire array
-for (let i = 0; i < arr.length; i++) {
+for (let i: number = 0; i < arr.length; i++) {
   console.log("Element at index", i, ":", arr[i]);
 }
 
 // Print only even numbers from the array
 console.log("Even numbers in the array:");
-for (let i = 0; i < arr.length; i++) {
+for (let i: number = 0; i < arr.length; i++) {
   if (arr[i] % 2 === 0) {
     console.log(arr[i]);
   }
@@ -135,7 +135,7 @@ for (let i = 0; i < arr.length; i++) {
  * ============================ */
 
 // Print numbers from 0 to 4 using a while loop
-let i = 0;
+let i: number = 0;
 
 while (i < 5) {
   console.log(i); // prints current value of i
