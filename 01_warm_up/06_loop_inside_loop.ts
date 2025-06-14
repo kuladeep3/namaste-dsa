@@ -4,8 +4,8 @@
 
 // 01.
 
-for (let i = 0; i < 3; i++) {
-  for (let j = 0; j < 3; j++) {
+for (let i: number = 0; i < 3; i++) {
+  for (let j: number = 0; j < 3; j++) {
     console.log(i, j);
   }
 }
@@ -19,8 +19,8 @@ for (let i = 0; i < 3; i++) {
 
 // 02.
 
-for (let i = 0; i < 3; i++) {
-  for (let j = 0; j < i; j++) {
+for (let i: number = 0; i < 3; i++) {
+  for (let j: number = 0; j < i; j++) {
     console.log(i, j);
   }
 }
@@ -34,8 +34,8 @@ for (let i = 0; i < 3; i++) {
 
 // 03.
 
-for (let i = 0; i < 5; i++) {
-  for (let j = 0; j <= i; j++) {
+for (let i: number = 0; i < 5; i++) {
+  for (let j: number = 0; j <= i; j++) {
     console.log(i, j);
   }
 }
@@ -51,8 +51,8 @@ for (let i = 0; i < 5; i++) {
 
 // 04.
 
-for (let i = 0; i < 3; i++) {
-  for (let j = i; j > 0; j--) {
+for (let i: number = 0; i < 3; i++) {
+  for (let j: number = i; j > 0; j--) {
     console.log(i, j);
   }
 }
@@ -66,8 +66,8 @@ for (let i = 0; i < 3; i++) {
 
 // 05.
 
-for (let i = 5; i > 0; i--) {
-  for (let j = 0; j < i; j++) {
+for (let i: number = 5; i > 0; i--) {
+  for (let j: number = 0; j < i; j++) {
     console.log(i, j);
   }
 }

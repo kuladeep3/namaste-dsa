@@ -2,14 +2,14 @@
  *  Write a function that returns the count of digits in a number.
  * ============================ */
 
-function countDigit(n) {
+function countDigit(n: number): number {
   // Special case: 0 has 1 digit
   if (n === 0) return 1;
 
   // Convert to absolute value to handle negative numbers
   n = Math.abs(n);
 
-  let count = 0;
+  let count: number = 0;
 
   // Divide the number by 10 repeatedly until it becomes 0
   while (n > 0) {

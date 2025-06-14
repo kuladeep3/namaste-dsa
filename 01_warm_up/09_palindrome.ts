@@ -2,19 +2,19 @@
  *  Write a function that takes a number as an argument and returns true if the number is a palindrome, otherwise false.
  * ============================ */
 
-function isPalindrome(x) {
+function isPalindrome(x: number): boolean {
   // Special case: single digit numbers are palindromes
   if (x < 10 && x >= 0) return true;
 
   // Special case: negative numbers are not palindromes
   if (x < 0) return false;
 
-  const num = x;
-  let reverse = 0;
+  const num: number = x;
+  let reverse: number = 0;
 
   // Reverse the digits of the number
   while (x > 0) {
-    let rem = x % 10;
+    let rem: number = x % 10;
     reverse = 10 * reverse + rem;
     x = Math.floor(x / 10);
   }
