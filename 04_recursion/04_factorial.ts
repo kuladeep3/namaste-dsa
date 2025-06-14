@@ -2,7 +2,7 @@
  *  Write a recursive function factorial(n) that returns the factorial of a given positive integer n.
  * ============================ */
 
-function factorial(n) {
+function factorial(n: number): number {
   if (n === 1) return 1;
 
   return n * factorial(n - 1);

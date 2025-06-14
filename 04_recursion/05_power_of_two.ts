@@ -2,7 +2,7 @@
  *  Write a function isPowerOfTwo(n) that returns true if n is a power of two.
  * ============================ */
 
-function isPowerOfTwo(n) {
+function isPowerOfTwo(n: number): boolean {
   // Base Case
   if (n === 1) return true;
   else if (n % 2 === 1 || n < 1) return false;

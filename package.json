@@ -1,0 +1,25 @@
+{
+  "name": "namaste-dsa",
+  "version": "1.0.0",
+  "description": "> This repository contains well-organized notes and problem solutions from the [Namaste DSA](https://www.youtube.com/playlist?list=PLUcsbZa0qzu3yNzzAxgvS5zyB1T9u8V_m) course. > Powered by [Docsify](https://docsify.js.org/), this documentation is lightweight, easy to navigate, and runs entirely in the browser.",
+  "main": "index.js",
+  "scripts": {
+    "js": "node",
+    "ts": "npx ts-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n4ryn/dsa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n4ryn/dsa/issues"
+  },
+  "homepage": "https://github.com/n4ryn/dsa#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

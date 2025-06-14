@@ -2,11 +2,11 @@
  *  Write a function to find the maximum number of consecutive 1's in the given array.
  * ============================ */
 
-function findMaxConsecutiveOnes(nums) {
-  let curCount = 0;
-  let maxCount = 0;
+function findMaxConsecutiveOnes(nums: number[]): number {
+  let curCount: number = 0;
+  let maxCount: number = 0;
 
-  for (let i = 0; i < nums.length; i++) {
+  for (let i: number = 0; i < nums.length; i++) {
     if (nums[i] === 1) {
       curCount++;
     } else {

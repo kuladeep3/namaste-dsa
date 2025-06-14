@@ -2,11 +2,11 @@
  *  Write a function to find the missing number in the given array.
  * ============================ */
 
-function missingNumber(nums) {
-  let currSum = 0;
-  const actualSum = (nums.length * (nums.length + 1)) / 2;
+function missingNumber(nums: number[]): number {
+  let currSum: number = 0;
+  const actualSum: number = (nums.length * (nums.length + 1)) / 2;
 
-  for (let i = 0; i < nums.length; i++) {
+  for (let i: number = 0; i < nums.length; i++) {
     currSum += nums[i];
   }
 

@@ -2,8 +2,8 @@
  * Write a function that takes an array and a target value as arguments and returns the index of the target value in the array if it exists, or -1 otherwise.
  * ============================ */
 
-function linearSearch(arr, target) {
-  for (let i = 0; i < arr.length; i++) {
+function linearSearch(arr: number[], target: number): number {
+  for (let i: number = 0; i < arr.length; i++) {
     if (arr[i] === target) {
       return i;
     }

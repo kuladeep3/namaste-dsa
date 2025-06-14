@@ -2,10 +2,10 @@
  *  Write a function to remove duplicates from a sorted array.
  * ============================ */
 
-function removeDuplicates(arr) {
+function removeDuplicates(arr: number[]): number {
   let x = 0;
 
-  for (let i = 0; i < arr.length; i++) {
+  for (let i: number = 0; i < arr.length; i++) {
     if (arr[i] > arr[x]) {
       x += 1;
       arr[x] = arr[i];
