@@ -6,13 +6,13 @@
  * ============================ */
 
 // Iterative Approach
-function fibonacciWithLoop(n) {
-  let first = 0;
-  let second = 1;
-  let sum = 0;
+function fibonacciWithLoop(n: number): number {
+  let first: number = 0;
+  let second: number = 1;
+  let sum: number = 0;
 
   // Iterate from 2 to n
-  for (let i = 2; i <= n; i++) {
+  for (let i: number = 2; i <= n; i++) {
     // Update the sum by adding (i-1)th and (i-2)th sums
     sum = first + second;
 
@@ -26,7 +26,7 @@ function fibonacciWithLoop(n) {
 }
 
 // Recursive Approach
-function fibonacci(n) {
+function fibonacci(n: number): number {
   if (n === 0) return 0;
   else if (n === 1) return 1;
 

@@ -2,17 +2,17 @@
  * Write a function that takes an array of integers and returns a sorted array.
  * ============================ */
 
-function bubbleSort(arr) {
+function bubbleSort(arr: number[]): number[] {
   // Iterate over the array for array length - 1 times
-  for (let i = 0; i < arr.length - 1; i++) {
+  for (let i: number = 0; i < arr.length - 1; i++) {
     // Initialize a flag to check if any swaps were made
-    let isSwapped = false;
+    let isSwapped: boolean = false;
 
     // Iterate over the array for array length - 1 - i times
-    for (let j = 0; j < arr.length - 1 - i; j++) {
+    for (let j: number = 0; j < arr.length - 1 - i; j++) {
       // If the current element is greater than the next element, swap them
       if (arr[j] > arr[j + 1]) {
-        let temp = arr[j];
+        let temp: number = arr[j];
         arr[j] = arr[j + 1];
         arr[j + 1] = temp;
 

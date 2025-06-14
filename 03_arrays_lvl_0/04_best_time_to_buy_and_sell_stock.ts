@@ -2,11 +2,11 @@
  *  Write a function to find best time to buy and sell stocks and return the maximum profit.
  * ============================ */
 
-function maxProfit(prices) {
-  let minPrice = prices[0];
-  let maxProfit = 0;
+function maxProfit(prices: number[]): number {
+  let minPrice: number = prices[0];
+  let maxProfit: number = 0;
 
-  for (let i = 1; i < prices.length; i++) {
+  for (let i: number = 1; i < prices.length; i++) {
     if (prices[i] - minPrice > maxProfit) {
       maxProfit = prices[i] - minPrice;
     }

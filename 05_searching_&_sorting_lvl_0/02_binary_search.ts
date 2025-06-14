@@ -2,12 +2,12 @@
  * Write a function that takes an array and a target value as arguments and returns the index of the target value in the array if it exists, or -1 otherwise.
  * ============================ */
 
-function binarySearch(nums, target) {
-  let start = 0;
-  let end = nums.length - 1;
+function binarySearch(nums: number[], target: number): number {
+  let start: number = 0;
+  let end: number = nums.length - 1;
 
   while (start <= end) {
-    let mid = Math.floor((start + end) / 2);
+    let mid: number = Math.floor((start + end) / 2);
 
     if (nums[mid] === target) {
       return mid;

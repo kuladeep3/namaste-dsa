@@ -2,12 +2,12 @@
  *  Write a function sum(n) that calculates the sum of the first n natural numbers using recursion.
  * ============================ */
 
-function sum(n) {
+function sumOfFirstN(n: number): number {
   if (n === 0) return 0;
 
-  return n + sum(n - 1);
+  return n + sumOfFirstN(n - 1);
 }
 
 // Test cases
-console.log(sum(5)); // Output: 15
-console.log(sum(10)); // Output: 55
+console.log(sumOfFirstN(5)); // Output: 15
+console.log(sumOfFirstN(10)); // Output: 55

@@ -7,35 +7,76 @@
 
 ## 🚀 Installation & Setup
 
-You can run this project locally using **Docsify**.
+> You can run this project locally using **Docsify** for the documentation, or use custom scripts to execute individual JavaScript/TypeScript code files.
 
-### Prerequisites
+### 🧰 Prerequisites
 
-- Node.js installed (v14+ recommended)
-- npm installed
+- **Node.js** (v14 or higher recommended)
+- **npm** (comes bundled with Node.js)
 
-### Run Locally
+---
 
-1. Clone the repository:
+### ⚙️ Clone the Repository
+
+```bash
+git clone https://github.com/n4ryn/namaste-dsa.git
+cd namaste-dsa
+```
+
+---
+
+### 📁 Run Individual Code Files (JavaScript / TypeScript)
+
+If you want to test a specific `.js` or `.ts` file locally:
+
+1. Install project dependencies:
 
    ```bash
-   git clone https://github.com/n4ryn/namaste-dsa.git
-   cd namaste-dsa
+   npm install
    ```
 
-2. Install Docsify CLI (if not already installed):
+2. Run a file:
+
+   - **For JavaScript files:**
+
+     ```bash
+     npm run js ./<path-to-file>
+     ```
+
+   - **For TypeScript files:**
+
+     ```bash
+     npm run ts ./<path-to-file>
+     ```
+
+   **Example:**
+
+   ```bash
+   npm run ts ./01_warm_up/01_programming_101.ts
+   npm run js ./03_arrays_lvl_0/01_remove_duplicates.js
+   ```
+
+---
+
+### 📚 Run Docs Locally (Docsify)
+
+To preview the course notes and documentation in your browser:
+
+1. Install Docsify CLI globally (if not already installed):
 
    ```bash
    npm install -g docsify-cli
    ```
 
-3. Serve the docs locally:
+2. Serve the Docsify site:
 
    ```bash
    docsify serve
    ```
 
-4. Open your browser and go to: [http://localhost:3000](http://localhost:3000)
+3. Open your browser and visit:
+
+   [http://localhost:3000](http://localhost:3000)
 
 ## 🧑‍💻 Contributing
 

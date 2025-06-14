@@ -63,7 +63,7 @@ Example 2:
 
 ## Logic Breakdown:
 
-```javascript
+```typescript
 function bubbleSort(arr) {
   // Iterate over the array for array length - 1 times
   for (let i = 0; i < arr.length - 1; i++) {

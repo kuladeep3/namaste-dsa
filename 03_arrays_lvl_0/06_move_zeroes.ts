@@ -2,10 +2,10 @@
  *  Write a function to move all 0's to the end of array.
  * ============================ */
 
-function moveZeroes(nums) {
-  let p = 0;
+function moveZeroes(nums: number[]): number[] {
+  let p: number = 0;
 
-  for (let i = 0; i < nums.length; i++) {
+  for (let i: number = 0; i < nums.length; i++) {
     if (nums[i] !== 0) {
       nums[p] = nums[i];
       p++;
