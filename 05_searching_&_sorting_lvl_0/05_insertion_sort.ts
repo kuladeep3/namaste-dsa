@@ -23,4 +23,4 @@ function insertionSort(arr: number[]): number[] {
   return arr;
 }
 
-console.log(insertionSort([7, 4, 3, 5, 1, 2]));
+console.log(insertionSort([7, 4, 3, 5, 1, 2])); // Output: [1, 2, 3, 4, 5, 7]
