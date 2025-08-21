@@ -1,3 +1,5 @@
+- [Get Started]("README.md")
+
 - [Warm Up]("01_warm_up/")
 
   - [01. Programming 101](01_warm_up/01_programming_101.md)

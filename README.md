@@ -5,18 +5,18 @@
 
 [Documentation Site ↗️](https://n4ryn.github.io/namaste-dsa/)
 
-## 🚀 Installation & Setup
+## Installation & Setup 🚀
 
 > You can run this project locally using **Docsify** for the documentation, or use custom scripts to execute individual JavaScript/TypeScript code files.
 
-### 🧰 Prerequisites
+### Prerequisites 🧰
 
 - **Node.js** (v14 or higher recommended)
 - **npm** (comes bundled with Node.js)
 
 ---
 
-### ⚙️ Clone the Repository
+### Clone the Repository ⚙️
 
 ```bash
 git clone https://github.com/n4ryn/namaste-dsa.git
@@ -25,7 +25,7 @@ cd namaste-dsa
 
 ---
 
-### 📁 Run Individual Code Files (JavaScript / TypeScript)
+### Run Individual Code Files (JavaScript / TypeScript) 📁
 
 If you want to test a specific `.js` or `.ts` file locally:
 
@@ -58,7 +58,7 @@ If you want to test a specific `.js` or `.ts` file locally:
 
 ---
 
-### 📚 Run Docs Locally (Docsify)
+### Run Docs Locally (Docsify) 📚
 
 To preview the course notes and documentation in your browser:
 
@@ -78,7 +78,7 @@ To preview the course notes and documentation in your browser:
 
    [http://localhost:3000](http://localhost:3000)
 
-## 🧑‍💻 Contributing
+## Contributing 🧑‍💻
 
 Contributions are welcome! If you'd like to add new notes, fix typos, or improve formatting:
 
@@ -90,20 +90,20 @@ Contributions are welcome! If you'd like to add new notes, fix typos, or improve
 
 Please follow the existing structure and naming conventions in folders and filenames.
 
-## 🛠️ Tech Stack
+## Tech Stack 🛠️
 
-- JavaScript
+- JavaScript/TypeScript
 - Markdown
 - Docsify
 - GitHub Pages
 
-## 📬 Contact
+## Contact 📬
 
 For suggestions or issues, feel free to:
 
 - Open an issue on [GitHub Issues](https://github.com/n4ryn/namaste-dsa/issues)
 
-## 📛 Badges
+## Badges 📛
 
 [![GitHub Stars](https://img.shields.io/github/stars/n4ryn/namaste-dsa?style=for-the-badge&color=1a1b27&logo=github&logoColor=FFFFFF)](https://github.com/n4ryn/namaste-dsa/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/n4ryn/namaste-dsa?style=for-the-badge&color=1a1b27&logo=github&logoColor=FFFFFF)](https://github.com/n4ryn/namaste-dsa/network)
